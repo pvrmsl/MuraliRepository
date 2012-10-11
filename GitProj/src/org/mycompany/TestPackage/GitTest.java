@@ -75,7 +75,7 @@ public class GitTest {
 		public void navigateNewPost() {
 		  selenium.click("//a[contains(text(),'Posts')]/following::a[contains(text(),'Add New')][1]");
 		  selenium.waitForPageToLoad("30000");
-		  selenium.isTextPresent("Add New Post");
+		 Assert.assertTrue(selenium.isTextPresent("Add New Post"));
 		}
 		  
 		@Test(description="Writes the new post")
@@ -103,8 +103,7 @@ public class GitTest {
 		  
 		@Test(description="Logs out")
 		public void logout() {
-		  selenium.click("//a[text()='Log Out']");
-		  //TODO:Assert
+		  selenium.click("//a[text()='Log Out']");		
 		}
 		
 		
