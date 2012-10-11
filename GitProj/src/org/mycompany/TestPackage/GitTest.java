@@ -78,7 +78,7 @@ public class GitTest {
 		 //Assert.assertTrue(selenium.isTextPresent("Add New Post"));
 		}
 		  
-		@Test(description="Writes the new post")
+		/*@Test(description="Writes the new post")
 		public void writeBlogPost() {
 		  selenium.type("title", "New Blog Post");
 		  selenium.click("edButtonHTML");
@@ -100,7 +100,7 @@ public class GitTest {
 		  selenium.waitForPageToLoad("30000");
 		  selenium.isElementPresent("//a[text()='New Blog Post']");
 		}
-		  
+		  */
 		@Test(description="Logs out Murali Krishna for testing")
 		public void logout() {
 		  selenium.click("//a[text()='Log Out']");		
