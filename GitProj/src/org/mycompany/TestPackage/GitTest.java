@@ -101,7 +101,7 @@ public class GitTest {
 		  selenium.isElementPresent("//a[text()='New Blog Post']");
 		}
 		  
-		@Test(description="Logs out")
+		@Test(description="Logs out Murali Krishna for testing")
 		public void logout() {
 		  selenium.click("//a[text()='Log Out']");		
 		}
